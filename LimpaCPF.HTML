@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Validador de CPF/CNPJ:</title>
+    <style type="text/css">
+        body {
+            background-color: #eee;
+            font-family: sans-serif;
+            font-size:14px;
+            margin: 0;
+            padding: 0;
+        }
+        #form {
+            width: 500px;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        #form input[type=text] {
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        #form input[type=submit] {
+            background-color: #24a0ed;
+            border: 0;
+            padding: 10px;
+            color:#fff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h2>Validador de CPF/CNPJ:</h2>
+        <form action="index.html" method="post">
+            <label>Informe o CPF/CNPJ:</label>
+            <input type="text" name="cpf-cnpj" />
+            <input type="submit" value="Validar" />
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
